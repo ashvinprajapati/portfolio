@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-800 shadow-md fixed w-full z-10">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold text-teal-400">MyPortfolio</h1>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#about" class="hover:text-teal-300">About</a></li>
+                <li><a href="#projects" class="hover:text-teal-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-teal-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="h-screen flex items-center justify-center text-center px-6">
+        <div>
+            <h2 class="text-5xl font-bold">Hi, I'm <span class="text-teal-400">Prajapati ashvin</span></h2>
+            <p class="mt-4 text-lg text-gray-300">A Passionate Frontend Developer</p>
+            <a href="#projects" class="mt-6 inline-block bg-teal-500 text-white px-6 py-3 rounded-md hover:bg-teal-600">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-teal-400">About Me</h2>
+            <p class="mt-4 text-gray-300 max-w-2xl mx-auto">
+                I am a web developer with expertise in building modern and responsive websites using HTML, CSS, JavaScript, and frameworks like Tailwind CSS.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-teal-400">My Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-teal-300">Project One</h3>
+                    <p class="mt-2 text-gray-300">A responsive web application built using TailwindCSS.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-teal-300">Project Two</h3>
+                    <p class="mt-2 text-gray-300">An interactive dashboard using HTML, CSS, and JavaScript.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-teal-300">Project Three</h3>
+                    <p class="mt-2 text-gray-300">A portfolio website with smooth animations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-teal-400">Contact Me</h2>
+            <p class="mt-4 text-gray-300">Feel free to reach out via email or connect on social media.</p>
+            <div class="mt-6">
+                <a href="mailto:your.email@example.com" class="bg-teal-500 text-white px-6 py-3 rounded-md hover:bg-teal-600">
+                    Email Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center bg-gray-900">
+        <p class="text-gray-400">&copy; 2025 Your Name | All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
